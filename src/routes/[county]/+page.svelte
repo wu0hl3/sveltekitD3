@@ -229,4 +229,7 @@
     top: 0;
     opacity: 0;
   }
+  text {
+    fill: #9ba7bd;
+  }
 </style>

@@ -132,12 +132,12 @@
     width: 100%;
     height: 100%;
     path {
-      stroke: #facc15;
+      stroke: #9ba7bd;
       stroke-width: 2px;
       transition: all 0.5s ease;
 
       &:hover {
-        fill: #facc15;
+        fill: #9ba7bd;
       }
     }
   }
