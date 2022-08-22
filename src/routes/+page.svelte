@@ -1,6 +1,5 @@
 <script>
   import Map from '$lib/components/Map.svelte'
-  import { fade, blur } from 'svelte/transition'
 
   export let data
   let county = 3

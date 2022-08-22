@@ -1,6 +1,7 @@
 <script>
   import { onMount, createEventDispatcher } from 'svelte'
   import { goto } from '$app/navigation'
+  import { blur } from 'svelte/transition'
   let el
 
   export let data
@@ -28,6 +29,7 @@
   viewBox="0 0 689.28 846.39"
   on:mouseover={selectCounty}
   on:click={selectCounty2}
+  transition:blur
 >
   <g>
     <path
